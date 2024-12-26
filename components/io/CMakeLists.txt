@@ -1,0 +1,9 @@
+idf_component_register(
+  SRCS
+  "uart.c"
+  "ble_server.cpp"
+  INCLUDE_DIRS
+  .
+  REQUIRES
+  "driver"
+  "esp-nimble-cpp")
